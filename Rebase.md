@@ -45,6 +45,8 @@ git rebase --skip
 
 ## Interactive Rebase
 
+<img width="1408" height="768" alt="image" src="https://github.com/user-attachments/assets/9628f35e-647e-4ed9-8461-98a534d97be4" />
+
 Interactive rebase allows you to modify commits during the replay process. Use it to clean up history before sharing work. Squash multiple small commits into one. Edit commit messages. Rearrange commit order. Delete unnecessary commits.
 
 ```bash
