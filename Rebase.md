@@ -21,6 +21,8 @@ Git identifies the common ancestor between the two branches. It saves the commit
 
 ## Handling Conflicts During Rebase
 
+<img width="1408" height="768" alt="image" src="https://github.com/user-attachments/assets/21166102-679a-407b-b148-6aa5b6b4c4c5" />
+
 Conflicts occur when the target branch modified the same lines as your feature branch. Git stops at the conflicting commit. Resolve the conflict in your editor. Stage the resolved files. Continue the rebase.
 
 ```bash
