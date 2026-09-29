@@ -1,5 +1,7 @@
 # Git Cherry-Pick
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/454cb2e2-59c7-4dc8-bdf5-a361a46a4ab9" />
+
 ## Concept
 
 Cherry-picking applies a specific commit from one branch onto another. Unlike merging which integrates entire branches, cherry-pick selects individual commits by their hash. This creates a new commit on the target branch with identical changes but a different commit ID.
