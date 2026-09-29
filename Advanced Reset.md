@@ -1,5 +1,7 @@
 # Git Reset: Advanced Patterns
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ccafd9e2-0626-4b5a-b2b8-962130d43e1e" />
+
 ## The Three Modes
 
 Reset moves HEAD and optionally modifies the index and working directory. The mode determines how far back it reaches.
