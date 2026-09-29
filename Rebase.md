@@ -1,5 +1,7 @@
 # Git Rebase
 
+<img width="1408" height="768" alt="image" src="https://github.com/user-attachments/assets/f00af458-9d08-4c5f-84f6-713cfb5169a6" />
+
 ## The Concept
 
 Rebase rewrites history. It takes a series of commits from one branch and replays them on top of another branch. Unlike merge, which creates a new commit linking two histories, rebase moves the entire feature branch to begin at the tip of the target branch. The result is a linear history where it appears the work was done sequentially rather than in parallel.
