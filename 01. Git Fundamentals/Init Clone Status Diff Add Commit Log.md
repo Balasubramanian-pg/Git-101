@@ -22,7 +22,10 @@ git init
 
 ## Cloning an Existing Repository
 
-`git clone` copies a remote repository to your local machine. It downloads all history, branches, and tags. It creates a working directory with the latest version of the default branch checked out. It configures a remote named `origin` pointing to the source URL.
+`git clone` copies a remote repository to your local machine. 
+- It downloads all history, branches, and tags.
+- It creates a working directory with the latest version of the default branch checked out.
+- It configures a remote named `origin` pointing to the source URL.
 
 ```bash
 git clone https://github.com/user/repo.git
