@@ -133,7 +133,11 @@ git commit --amend -m "Updated message"
 
 ## Reviewing History
 
-`git log` displays commit history. By default, it shows commits reachable from the current HEAD in reverse chronological order. Each entry includes hash, author, date, and message.
+>[!Note]
+>`git log` displays commit history. 
+
+- By default, it shows commits reachable from the current HEAD in reverse chronological order.
+- Each entry includes hash, author, date, and message.
 
 Limit output with `-n` to show only the most recent commits. Use `--oneline` for compact display showing one commit per line. Use `--graph` to visualize branch topology.
 
