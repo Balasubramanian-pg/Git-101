@@ -39,6 +39,27 @@ Working Directory --[git add]--> Staging Area --[git commit]--> Repository
 
 This separation provides control. You decide exactly what constitutes a logical unit of work. A single file modification might contain a bug fix and a refactor. Stage the bug fix first, commit it, then stage the refactor and commit separately. This creates a clean history where each commit has a single purpose.
 
+```mermaid
+flowchart LR
+    subgraph "Working Directory"
+        A[File A: Bug Fix + Refactor]
+    end
+
+    subgraph "Staging Area"
+        B[Bug Fix Changes]
+        C[Refactor Changes]
+    end
+
+    subgraph "Local Repository"
+        D[Commit 1: Bug Fix]
+        E[Commit 2: Refactor]
+    end
+
+    A -- "git add -p (select bug fix)" --> B
+    B -- "git commit" --> D
+    A -- "git add -p (select refactor)" --> C
+    C -- "git commit" --> E
+```
 ## Visualizing State
 
 `git status` shows the relationship between these three states. It lists files that are untracked, modified but unstaged, and staged. It tells you which branch you are on and whether your local branch is ahead or behind the remote.
