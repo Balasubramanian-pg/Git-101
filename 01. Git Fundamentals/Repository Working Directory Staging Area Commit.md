@@ -66,6 +66,33 @@ flowchart LR
 
 `git diff` compares the working directory against the staging area. It shows changes you have made but not yet staged. `git diff --cached` compares the staging area against the last commit. It shows what will be included in the next commit.
 
+```mermaid
+flowchart LR
+    subgraph WorkingDirectory ["1. Working Directory"]
+        WD["Modified Files\n(Untracked / Unstaged)"]
+    end
+
+    subgraph StagingArea ["2. Staging Area (Index)"]
+        SA["Staged Files"]
+    end
+
+    subgraph Repository ["3. Local Repository (HEAD)"]
+        Repo["Last Commit"]
+    end
+
+    WD <-->|"git diff\n(Shows unstaged changes)"| SA
+    SA <-->|"git diff --cached\n(Shows what will be committed)"| Repo
+
+    Status["git status\n(Summarizes state & branch info)"]
+    Status -.-> WD
+    Status -.-> SA
+    Status -.-> Repo
+    
+    style WD fill:#f9f,stroke:#333,stroke-width:2px
+    style SA fill:#bbf,stroke:#333,stroke-width:2px
+    style Repo fill:#bfb,stroke:#333,stroke-width:2px
+    style Status fill:#ffd,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
+```
 ## Common Confusions
 
 **Modified but not staged**: You edited a file but did not run `git add`. Git knows the file changed but will not include it in the next commit. Running `git commit` without staging results in an empty commit or a message saying nothing to commit.
