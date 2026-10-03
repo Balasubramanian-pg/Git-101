@@ -23,7 +23,7 @@ Git tracks files in three distinct states.
 >- The other seven remain in the working directory, excluded from the upcoming commit.
 
 >[!Note]
-> ###Repository (HEAD):
+> ### Repository (HEAD):
 >- The permanent history stored in `.git/objects`.
 >- Commits here are immutable.
 >- Once recorded, they cannot be changed without rewriting history.
