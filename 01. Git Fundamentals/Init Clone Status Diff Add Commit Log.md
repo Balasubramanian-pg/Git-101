@@ -139,7 +139,9 @@ git commit --amend -m "Updated message"
 - By default, it shows commits reachable from the current HEAD in reverse chronological order.
 - Each entry includes hash, author, date, and message.
 
-Limit output with `-n` to show only the most recent commits. Use `--oneline` for compact display showing one commit per line. Use `--graph` to visualize branch topology.
+- Limit output with `-n` to show only the most recent commits. 
+- Use `--oneline` for compact display showing one commit per line. 
+- Use `--graph` to visualize branch topology.
 
 ```bash
 git log -n 5
@@ -147,7 +149,9 @@ git log --oneline
 git log --graph --oneline --all
 ```
 
-Filter by author, date range, or file path. Search commit messages with `--grep`. These filters help locate specific changes in large histories.
+Filter by author, date range, or file path. 
+- Search commit messages with `--grep`.
+- These filters help locate specific changes in large histories.
 
 ```bash
 git log --author="Balu"
