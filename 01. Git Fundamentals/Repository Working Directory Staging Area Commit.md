@@ -88,10 +88,10 @@ flowchart LR
     Status -.-> SA
     Status -.-> Repo
     
-    style WD fill:#f9f,stroke:#333,stroke-width:2px
-    style SA fill:#bbf,stroke:#333,stroke-width:2px
-    style Repo fill:#bfb,stroke:#333,stroke-width:2px
-    style Status fill:#ffd,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
+    style WD fill:#000,stroke:#333,stroke-width:2px
+    style SA fill:#000,stroke:#333,stroke-width:2px
+    style Repo fill:#000,stroke:#333,stroke-width:2px
+    style Status fill:#00,stroke:#333,stroke-width:2px,stroke-dasharray: 5 5
 ```
 ## Common Confusions
 
