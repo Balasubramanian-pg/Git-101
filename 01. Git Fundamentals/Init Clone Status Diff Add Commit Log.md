@@ -120,8 +120,12 @@ Provide the message inline with `-m`. Omitting this flag opens the default edito
 ```bash
 git commit -m "Fix null handling in user transformation"
 ```
+>[!Tip]
+>Amend the most recent commit with `--amend`. 
 
-Amend the most recent commit with `--amend`. This replaces the previous commit entirely. Use it to fix typos in messages or include forgotten files. Never amend commits already pushed to shared branches.
+- This replaces the previous commit entirely.
+- Use it to fix typos in messages or include forgotten files.
+- Never amend commits already pushed to shared branches.
 
 ```bash
 git commit --amend -m "Updated message"
