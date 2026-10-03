@@ -58,13 +58,16 @@ git status
 
 ## Viewing Differences
 
-`git diff` compares changes between different states. Without arguments, it shows modifications in the working directory that are not yet staged. This helps verify exactly what changed before adding files.
+`git diff` compares changes between different states. 
+- Without arguments, it shows modifications in the working directory that are not yet staged.
+- This helps **verify exactly what changed before adding files.**
 
 ```bash
 git diff
 ```
-
-To see changes already staged for the next commit, use the `--cached` or `--staged` flag. This compares the index against the last commit.
+>[!Tip}
+>To see changes already staged for the next commit, use the `--cached` or `--staged` flag.<br>
+>This compares the **index against the last commit**.
 
 ```bash
 git diff --cached
