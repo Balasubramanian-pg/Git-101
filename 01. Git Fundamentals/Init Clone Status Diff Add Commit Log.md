@@ -101,11 +101,19 @@ git add .
 git add -A
 ```
 
-Interactive staging via `git add -p` allows selecting individual hunks within a file. This enables committing related changes separately even if they exist in the same file. Useful for separating bug fixes from refactoring done in the same session.
+Interactive staging via `git add -p` allows selecting individual hunks within a file. 
+- This enables committing related changes separately even if they exist in the same file.
+- Useful for separating bug fixes from refactoring done in the same session.
 
 ## Creating Commits
 
-`git commit` records the staged snapshot permanently in the repository history. It creates a commit object with author information, timestamp, and a message. The message should explain why the change was made, not just what changed. The code diff shows what. The message explains context.
+>[!Note]
+>`git commit` records the staged **snapshot permanently in the repository history**. 
+
+- It creates a commit object with author information, timestamp, and a message. 
+- The message should explain why the change was made, not just what changed.
+- The code diff shows what.
+- The message explains context.
 
 Provide the message inline with `-m`. Omitting this flag opens the default editor for multi-line messages.
 
