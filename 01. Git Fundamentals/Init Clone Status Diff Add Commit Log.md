@@ -2,9 +2,17 @@
 
 ## Initializing a Repository
 
-`git init` creates a new repository in the current directory. It generates the `.git` subdirectory containing all metadata, object storage, and configuration files. The working directory remains unchanged. No files are tracked yet. This command is idempotent. Running it again in an existing repository reinitializes configuration but does not destroy data.
+`git init` creates a new repository in the current directory. 
+>[!Note]
+>It generates the `.git` subdirectory containing all metadata, object storage, and configuration files.
 
-Use this when starting a new project from scratch or converting an unversioned directory into a Git repository.
+- The working directory remains unchanged. 
+- No files are tracked yet.
+- This command is **idempotent**.
+- Running it again in an existing repository **reinitializes** configuration but does not destroy data.
+
+>[!Tip]
+>Use this when starting a new project from scratch or converting an unversioned directory into a Git repository.
 
 ```bash
 mkdir my-project
