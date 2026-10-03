@@ -73,7 +73,9 @@ git diff
 git diff --cached
 ```
 
-Compare specific commits by providing their hashes. Compare branches by naming them. Limit output to specific files by appending paths.
+- Compare specific commits by providing their hashes. 
+- Compare branches by naming them.
+- Limit output to specific files by appending paths.
 
 ```bash
 git diff HEAD~1 HEAD
@@ -83,9 +85,15 @@ git diff -- path/to/file.py
 
 ## Staging Changes
 
-`git add` moves changes from the working directory to the staging area. It snapshots the current content of specified files. Subsequent modifications to those files do not affect the staged version until you run add again.
+`git add` moves changes from the working directory to the **staging area**. 
+- It snapshots the current content of specified files.
+- Subsequent modifications to those files do not affect the staged version until you run add again.
 
-Add specific files for precision. Use `.` to stage all changes in the current directory. Use `-A` or `--all` to stage all changes in the entire repository including deletions.
+Add specific files for **precision**. 
+
+>[!Note]
+>Use `.` to stage all changes in the current directory.<br>
+>Use `-A` or `--all` to stage all changes in the entire repository including deletions.
 
 ```bash
 git add file.py
