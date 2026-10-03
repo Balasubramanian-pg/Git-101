@@ -2,7 +2,11 @@
 
 ## The Intermediate Layer
 
-The staging area exists because Git separates the act of selecting changes from the act of recording them. This decoupling provides precision that other version control systems lack. You curate what belongs in the next snapshot before making it permanent. Without staging, every modification in your working directory would automatically become part of the next commit. This all-or-nothing approach forces large, unfocused commits or requires complex workarounds to achieve granularity.
+The staging area exists because **Git separates the act of selecting changes from the act of recording them**. 
+- This decoupling provides precision that other version control systems lack.
+- You curate what belongs in the next snapshot before making it permanent.
+- Without staging, **every modification in your working directory would automatically become part of the next commit**.
+- This all-or-nothing approach forces large, unfocused commits or requires complex workarounds to achieve granularity.
 
 ## When to Stage
 
