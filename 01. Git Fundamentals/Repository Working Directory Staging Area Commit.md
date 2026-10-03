@@ -7,11 +7,12 @@ Git tracks files in three distinct states.
 - Most Git errors stem from misunderstanding which state a file occupies at any given moment.
 
 >[!Note]
->**Working Directory**: The files you **see and edit on your disk**.<br>
->This is your **sandbox**.<br>
->Changes here are **local and volatile**.<br>
->Git does not track them until you explicitly add them.<br>
->If you delete a file in the working directory without staging or committing, it is gone unless you have backups.
+> ### Working Directory:
+>- The files you **see and edit on your disk**.<br>
+>- This is your **sandbox**.<br>
+>- Changes here are **local and volatile**.<br>
+>- Git does not track them until you explicitly add them.<br>
+>- If you delete a file in the working directory without staging or committing, it is gone unless you have backups.
 
 **Staging Area (Index)**: A hidden file inside `.git/index` that acts as a preview of the next commit. It holds snapshots of files you have marked for inclusion. The staging area allows you to construct a commit selectively. You can modify ten files but stage only three. The other seven remain in the working directory, excluded from the upcoming commit.
 
