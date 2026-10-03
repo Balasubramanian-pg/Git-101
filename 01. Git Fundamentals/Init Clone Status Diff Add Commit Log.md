@@ -48,7 +48,9 @@ git clone https://github.com/user/repo.git custom-name
   - and staged for commit.
 - It shows which branch you are on and whether your local branch is ahead or behind the remote.
 
-Run this frequently. It provides immediate feedback on what Git sees versus what you expect. If a file you modified does not appear in status output, check if it is ignored via `.gitignore`.
+Run this frequently. 
+- It provides **immediate feedback on what Git sees versus what you expect**. 
+- If a file you modified does not appear in status output, check if it is ignored via `.gitignore`.
 
 ```bash
 git status
