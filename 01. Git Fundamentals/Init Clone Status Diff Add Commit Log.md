@@ -31,7 +31,9 @@ git init
 git clone https://github.com/user/repo.git
 ```
 
-Cloning is distinct from downloading a zip archive. A clone includes the full object database allowing offline history inspection and branch creation. Specify a directory name as the second argument to clone into a different folder.
+Cloning is distinct from downloading a zip archive. 
+- A clone includes the **full object database** allowing offline history inspection and **branch creation**.
+- Specify a **directory name** as the **second argument** to clone into a different folder.
 
 ```bash
 git clone https://github.com/user/repo.git custom-name
