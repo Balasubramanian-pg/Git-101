@@ -14,9 +14,16 @@ Git tracks files in three distinct states.
 >- Git does not track them until you explicitly add them.<br>
 >- If you delete a file in the working directory without staging or committing, it is gone unless you have backups.
 
-**Staging Area (Index)**: A hidden file inside `.git/index` that acts as a preview of the next commit. It holds snapshots of files you have marked for inclusion. The staging area allows you to construct a commit selectively. You can modify ten files but stage only three. The other seven remain in the working directory, excluded from the upcoming commit.
+>[!Note]
+> ### Staging Area (Index):
+>- A hidden file inside `.git/index` that acts as a preview of the next commit.
+>- It holds snapshots of files you have marked for inclusion.
+>- The staging area allows you to construct a commit selectively.
+>- You can modify ten files but stage only three.
+>- The other seven remain in the working directory, excluded from the upcoming commit.
 
-**Repository (HEAD)**: The permanent history stored in `.git/objects`. Commits here are immutable. Once recorded, they cannot be changed without rewriting history. The repository represents the last saved state of your project.
+>[!Note]
+>**Repository (HEAD)**: The permanent history stored in `.git/objects`. Commits here are immutable. Once recorded, they cannot be changed without rewriting history. The repository represents the last saved state of your project.
 
 ## The Workflow Cycle
 
