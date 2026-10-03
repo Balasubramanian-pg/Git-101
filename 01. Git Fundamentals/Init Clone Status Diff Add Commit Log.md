@@ -65,7 +65,7 @@ git status
 ```bash
 git diff
 ```
->[!Tip}
+>[!Tip]
 >To see changes already staged for the next commit, use the `--cached` or `--staged` flag.<br>
 >This compares the **index against the last commit**.
 
