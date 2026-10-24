@@ -79,6 +79,7 @@ The Readme file is the first artifact a new developer encounters. It must contai
 - A link to the broader contribution guidelines.
 
 ## 4. The Key Conceptual Point
+>[!Note]
 > Hygiene is not an optional administrative task; it is the structural foundation that determines the long-term maintainability and velocity of a software project.
 
 - Neglecting hygiene introduces hidden friction. Future developers spend hours deciphering ambiguous commit histories or debugging unstable main branches.
