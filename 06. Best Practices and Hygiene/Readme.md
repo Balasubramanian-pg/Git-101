@@ -1,6 +1,8 @@
 # 06. Best Practices and Hygiene - Explained
 
 ## 1. What is Software Development Hygiene?
+
+>[!Tip]
 > Software development hygiene consists of the standardized, repeatable practices that maintain codebase stability, readability, and collaborative efficiency over time.
 
 - **Atomic Commits** isolate a single logical change, ensuring version history remains a precise map of development decisions rather than a chaotic dump of working states.
