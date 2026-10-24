@@ -10,6 +10,8 @@ Focus on whether the transformation logic matches business requirements. Verify 
 
 ## Schema and Type Safety
 
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/967fd02e-b07a-4097-a17f-f6f2071b527b" />
+
 Check that input and output schemas are defined clearly. Weak typing in Spark or Pandas allows silent type coercion that produces incorrect results later. Ensure explicit casts where needed. Validate that column names follow team conventions and do not conflict with reserved keywords in downstream systems.
 
 Watch for schema evolution issues. If the source system adds columns or changes types, will the pipeline fail gracefully or crash? Look for schema validation steps or at least logging when unexpected columns appear.
