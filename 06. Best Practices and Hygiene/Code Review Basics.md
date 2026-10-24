@@ -1,5 +1,7 @@
 # Code Review Basics for Data Engineering
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/6246729d-2fb0-47ff-b8cd-e50fff1050f8" />
+
 ## Scope Beyond Syntax
 
 Data engineering code reviews differ from application development because correctness matters more than elegance. A bug in a web service returns an error page. A bug in a data pipeline silently corrupts downstream analytics or breaks regulatory reporting. Reviewers must prioritize data integrity over code style.
